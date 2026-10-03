@@ -6,7 +6,7 @@ class TestApp(unittest.TestCase):
     def test_greet(self):
         self.assertEqual(
             greet(),
-            "Hello from Jenkins CI/CD Pipeline! Version 3"
+            "Hello from Jenkins CI/CD Pipeline! Version 4"
         )
 
 if __name__ == "__main__":
